@@ -1,0 +1,31 @@
+# YouTube Gobbler
+
+Fetches a list of all videos uploaded by a Youtube user.
+
+## Usage
+
+You will need to install a Java runtime environment from java.com. You may already have one.
+
+Click on the "downloads" button and download youtubegobbler.jar.
+
+Open a terminal in the directory of the file youtubegobbler.jar and use the following command.
+
+     java -jar youtubegobbler.jar nongling21
+
+You can, of course, replace nongling21 with another Youtube user to see a list of their videos. This program will only list videos that are publicly available.
+
+## Compiling
+
+If you wish to change the code and create a new version of the youtubegobbler.jar file, start by installing a Java Development Kit and Leiningen. Then run the following commands from a terminal in the same directory as project.clj.
+
+     lein deps
+
+     lein compile
+
+     lein uberjar
+
+## License
+
+Copyright (C) 2010 Nong Watanabe
+
+Distributed under the Eclipse Public License, the same as Clojure.
